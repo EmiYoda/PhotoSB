@@ -1,5 +1,12 @@
 /node_modules
 .env
+.babelrc
+server.js
+Procfile
+package.json
+package-lock.json
+LICENSE
+env.js
 
 npm-debug.log*
 
