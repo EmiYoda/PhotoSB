@@ -1,0 +1,46 @@
+    .home {
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+
+        background: {
+            color: rgb(67, 66, 66);
+            image: url(https://source.unsplash.com/collection/1111575/1600x810);
+            repeat: no-repeat;
+            position: center;
+            size: cover;
+        }
+
+        &__header {
+            display: flex;
+            justify-content: space-between;
+            align-self: flex-start;
+            padding: 20px 30px;
+            align-items: center;
+            background-color: #071013;
+            opacity: 0.4;
+
+    
+            a {
+                margin-right: 20px;
+                text-decoration: inherit;
+                color: #f0eeeede;
+                font-size: 17px;
+                font-family: 'Montserrat', sans-serif;
+
+    
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+
+        &__body {
+            flex: 1;
+            display: flex;
+            margin-top: 10%;
+            flex-direction: column;
+        }
+ }
