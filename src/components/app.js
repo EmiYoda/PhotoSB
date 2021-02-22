@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { BrowserRouter, Route} from 'react-router-dom';
-import PacmanLoader from "react-spinners/PacmanLoader"
+import RingLoader from "react-spinners/RingLoader"
 import '../style/App.scss'
 import Signup from './auth/Signup';
 import Home from './Home';
@@ -25,7 +25,7 @@ export default function App() {
         {
           loading ? 
 
-          <PacmanLoader
+          <RingLoader
           loading={loading}
           color={"#7fff"}
           size={30}

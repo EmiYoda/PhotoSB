@@ -1,24 +1,36 @@
+//* VARIABLES
+$primary: #007bff;
+
+$strength-colors: (darkred, orangered, orange, yellowgreen, green);
+
+$strength-gap: 6px;
+
 .signup {
     display: flex;
     align-items: center;
     justify-content: center;
     background: {
         repeat: no-repeat;size: cover;
+        position: center;
         color: rgb(67, 66, 66);
     }
+    background-attachment: fixed;
     width: 100vw;
     height: 100vh;
-    &__body {
-        background-color: rgba(76, 247, 187, 0.112);
-        h2 {
-            color: #f5f5f5;
-            font-weight: 700;
-            font-size: 24px;
-        }  
-        &__form {
-            display: flex;
-            align-items: center;
-            justify-content: center;
+
+    span {
+        transform: translateY(400px);
+        color: #f5f5f5;
+        font-size: 18px;
+        a {
+            color: #dfdbdb;
+            text-decoration: none;
+            font-size: 15px;
+
+            &:hover {
+                color: #f5f5f5;
+                cursor: pointer;
+            }
         }
     }
 }
